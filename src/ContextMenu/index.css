@@ -1,0 +1,50 @@
+/* .ContextMenu {
+  width: 100px;
+  background-color: white !important;
+}
+
+.modal-backdrop {
+  background: none;
+}
+
+.ContextMenu-body {
+  background-color: inherit;
+  padding: 0px !important;
+}
+
+.ContextMenu-body button {
+  background-color: black;
+  display: block;
+  width: 100%;
+  margin: 0 !important;
+  border: none;
+  border-radius: 0;
+  margin-top: 1px;
+}
+
+.contextmenu-body button:hover {
+  background-color: white;
+} */
+
+.ContextMenu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  color: gray;
+  background-color: white;
+}
+
+.ContextMenu-item {
+  padding: 10px 5px;
+  font-weight: bold;
+}
+
+.ContextMenu-item:hover {
+  color: white;
+  background-color: gray;
+}

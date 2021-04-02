@@ -3,16 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
     "@types/jest": "^26.0.22",
+    "@types/lodash": "^4.14.168",
     "@types/node": "^12.20.7",
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.3",
+    "@types/react-paginate": "^6.2.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-paginate": "^7.1.2",
     "react-scripts": "4.0.3",
+    "react-spinners": "^0.10.6",
+    "reactstrap": "^8.9.0",
     "typescript": "^4.2.3",
     "web-vitals": "^1.1.1"
   },
@@ -39,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/reactstrap": "^8.7.2"
   }
 }

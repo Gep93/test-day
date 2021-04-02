@@ -1,0 +1,67 @@
+.VehicleData {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.pagination {
+  margin: 15px auto;
+  display: flex;
+  list-style: none;
+  outline: none;
+  user-select: none;
+  font-weight: bold;
+  color: #212529;
+}
+.pagination > .active > a {
+  background-color: #dee2e6;
+  border-color: #dee2e6;
+  color: black;
+}
+.pagination > li > a {
+  border-left: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+  border-bottom: 2px solid #dee2e6;
+  border-top: 2px solid #dee2e6;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
+.pagination > li > a:hover {
+  color: black !important;
+  background-color: #dee2e6;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #dee2e6;
+  border-color: #dee2e6;
+  /* color: white; */
+  outline: none;
+}
+.pagination > li > a,
+.pagination > li > span {
+  color: #dee2e6;
+}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span,
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-radius: unset;
+}
+
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-right: 2px solid #dee2e6;
+}
+
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+  border-left: 2px solid #dee2e6;
+}
